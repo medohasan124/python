@@ -1,8 +1,7 @@
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
 import seaborn as sns
+import matplotlib.pyplot as plt
 
-peng = sns.load_dataset("penguins")
+data = sns.load_dataset("tips")
 
-print(peng.head())
+print(data.groupby("smoker")["total_bill"].sum())
+print(data["smoker"].value_counts())
