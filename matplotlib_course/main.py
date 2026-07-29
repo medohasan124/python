@@ -5,7 +5,7 @@ months = ["Jan", "Feb", "Mar", "Apr", "May"]
 revenue = [5000, 7000, 6500, 8000, 9500]
 
 
-plt.(months,revenue)
+plt.bar(months,revenue)
 plt.xlabel("Month")
 plt.ylabel("Revenue")
 plt.title("monthly revenue")
