@@ -27,7 +27,7 @@ def stand(arr):
         newtotal += y ** 2
 
 
-    mymean = newtotal / num
+    mymean = newtotal / num 
 
     gadr = np.sqrt(mymean)
     return gadr

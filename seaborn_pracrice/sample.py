@@ -40,6 +40,8 @@ print("------------ sex & bill ----------------------")
 print(data.groupby("sex")["total_bill"].mean())
 print("------------ sex & tips ----------------------")
 print(data.groupby("sex")["tip"].mean())
+print("------------ 5 number sammary ----------------------")
+print(data.describe())
 #Mean - 19.78594262295082
 #Median - 17.795
 #min bill - 3.07

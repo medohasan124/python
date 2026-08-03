@@ -1,0 +1,11 @@
+import numpy as np
+
+heights = np.array([150, 155, 160, 165, 170, 175, 180, 185])
+
+q1 = np.percentile(heights, 25)
+q2 = np.percentile(heights, 50)
+q3 = np.percentile(heights, 75)
+
+print("Q1:", q1) #157.5
+print("Q2 (Median):", q2) #167.5
+print("Q3:", q3) #177.5
