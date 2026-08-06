@@ -5,7 +5,6 @@ import seaborn as sns
 data = sns.load_dataset("tips")
 
 
-
 print(data.head())
 print(data.shape)
 

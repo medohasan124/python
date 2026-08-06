@@ -36,5 +36,7 @@ department_a = [8000, 8200, 7900, 8100, 8000]
 department_b = [3000, 15000, 5000, 20000, 2000]
 
 print(stand(department_a))
-print(stand(department_b))
+print(week1.mean())
+print(np.median(week1))
+
 
